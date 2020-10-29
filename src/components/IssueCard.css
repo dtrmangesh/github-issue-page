@@ -1,0 +1,26 @@
+.issues-container{
+    width: 72.3%;
+    margin: auto;
+}
+.card-container{
+    background: white;
+    border-radius: 0px;
+}
+
+.open.octicon {
+    color: var(--color-auto-green-5);
+}
+.border{
+    border: none !important;
+}
+
+.text-small{
+    text-align: left;;
+}
+
+.open-icon{
+    top: 14px;
+    /* padding-top: 5px; */
+    /* margin-top: 5px; */
+    position: absolute;
+}

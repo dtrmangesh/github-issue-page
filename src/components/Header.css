@@ -1,0 +1,15 @@
+.headerContainer{
+z-index: 32;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color:white;
+    background-color: #24292e;
+    height: 80px;
+
+}
+.font-size{
+    font-size: 18px;
+}
+ui , li{
+    margin-left: 20px;
+}

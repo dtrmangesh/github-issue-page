@@ -1,0 +1,10 @@
+.open-button{
+    color: var(--color-text-primary);
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  
+  .subnav-search-input{
+    width: 505px !important;
+  
+  }
