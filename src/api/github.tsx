@@ -11,3 +11,15 @@ export const getGithubIssues = async () => {
         console.error(error);
     }
 }
+
+
+
+export const getGithubDetailPage = async (url:string) => {
+    try{
+        const data = await axios.get(url);
+        return data.data;
+       
+    } catch (error) {
+        console.error(error);
+    }
+}

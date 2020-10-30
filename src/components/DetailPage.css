@@ -1,0 +1,43 @@
+.detail-container{
+    width: 72.3%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card-container-border {
+    border-radius: 12px !important;
+    
+}
+
+.detail-container::after{
+    position: absolute;
+    top: 11px;
+    right: 100%;
+    left: -16px;
+    display: block;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    content: " ";
+    border-color: transparent;
+    border-style: solid solid outset;
+}
+
+.timeline-comment-header {
+    padding-right: 16px;
+    text-align: left;
+
+    padding-left: 16px;
+    color: var(--color-text-secondary);
+    flex-direction: row-reverse;
+    background-color: var(--color-bg-tertiary);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 100%;
+}
+
+
+.userName{
+    font-size: 21px;
+    color: black;
+}

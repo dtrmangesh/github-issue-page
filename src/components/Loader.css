@@ -1,0 +1,11 @@
+.loader-container{
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 1px;
+    display: initial;
+    left: 0px;
+    right: 0px;
+    font-size: 80px;
+}

@@ -8,3 +8,18 @@
     width: 505px !important;
   
   }
+
+
+  .header-title{
+    text-transform: capitalize;
+    top: 0px;
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .back-button{
+    top: 3px;
+    position: relative;
+  }
