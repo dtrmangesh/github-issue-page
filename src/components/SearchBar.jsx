@@ -27,7 +27,7 @@ export default function SearchBar(props) {
                       <span className="header-title"> {props.title} </span>
                       </div>
                   }  
-                  {!props.showBackButton && <a href="" className="open-button"> {props.issuesCount} Open</a>}   
+                  {!props.showBackButton && <a className="open-button"> {props.issuesCount} Open</a>}   
                   
                     </div>
                   </div>

@@ -47,10 +47,7 @@ export default class IssueCard extends Component {
                                         </div>
                                         <div className="mt-1 text-small text-gray">
                                             <span className="opened-by">
-                                                #{issues.number} opened { this.getPastTime(issues.created_at)} by <a href="" className="muted-link tooltip-author">
-                                                {/* <div class="tooltiptext-author pl-1">
-                                               <img src={issues.user.avatar_url} alt="" width="20px" height="20px"/>
-                                            </div> */}
+                                                #{issues.number} opened { this.getPastTime(issues.created_at)} by <a  className="muted-link tooltip-author">
                                                     {issues.user.login}
                                                 
                                                 </a>
